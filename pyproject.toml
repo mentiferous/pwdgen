@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
+dynamic = ["version"]
 name = "pwdgen-py"
-version = "1.0.0"
 requires-python = ">=3.6"
 authors = [{ name = "mentiferous" }]
 description = "A secure password generator"
@@ -34,6 +34,9 @@ classifiers = [
 
 [project.urls]
 Source = "https://github.com/mentiferous/pwdgen.git"
+
+[tool.hatch.version]
+path = "src/pwdgen/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/pwdgen"]
