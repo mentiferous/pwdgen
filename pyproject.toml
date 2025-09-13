@@ -1,2 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pwdgen-py"
+version = "1.0.0"
+requires-python = ">=3.6"
+authors = [{ name = "mentiferous" }]
+description = "A secure password generator"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+keywords = ["pwdgen", "pwdgen-py", "passwords", "generator"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Source = "https://github.com/mentiferous/pwdgen.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pwdgen"]
+
 [tool.isort]
 profile = "black"
