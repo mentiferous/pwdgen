@@ -51,7 +51,7 @@ def main():
         "-d",
         "--digits",
         action="store_true",
-        help="",
+        help="generate a random password of digits",
     )
     parser.add_argument(
         "-l",
