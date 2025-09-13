@@ -67,9 +67,12 @@ def main():
 
     if args.base85:
         print(gen_base85(args.length))
+
     elif args.hex:
         print(gen_hex(args.length))
+
     elif args.digits:
         print(gen_digits(args.length))
+
     else:
         parser.print_help()

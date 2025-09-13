@@ -24,18 +24,18 @@ from string import digits
 
 
 def gen_base85(length):
-    """Generate a random base85 string."""
+    """Generate a random base85 password."""
 
     return b85encode(token_bytes(length)).decode()[:length]
 
 
 def gen_hex(length):
-    """Generate a random hex string."""
+    """Generate a random hex password."""
 
     return token_hex(length)[:length]
 
 
 def gen_digits(length):
-    """Generate a random string of digits."""
+    """Generate a random password of digits."""
 
     return "".join(choice(digits) for _ in range(length))

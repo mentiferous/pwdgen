@@ -2,7 +2,7 @@
 
 A secure password generator
 
-```sh
+```text
 usage: pwdgen [-h] [-V] [-b] [--hex] [-d] [-l LENGTH]
 
 A secure password generator
@@ -15,3 +15,24 @@ options:
   -d, --digits
   -l, --length LENGTH  choose a password length (default: 32)
 ```
+
+## Installation
+
+### Prerequisites
+
+- Python >= 3.6
+- [pipx](https://pipx.pypa.io/stable/installation/#on-linux)
+
+```sh
+pipx install pwdgen-py
+```
+
+## Usage
+
+```sh
+python -m pwdgen
+```
+
+## License
+
+[GNU General Public License v3.0 or later](https://github.com/mentiferous/pwdgen/blob/main/LICENSE)
