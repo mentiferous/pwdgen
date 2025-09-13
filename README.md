@@ -12,7 +12,7 @@ options:
   -V, --version        show program's version number and exit
   -b, --base85         generate a random base85 password
   --hex                generate a random hex password
-  -d, --digits
+  -d, --digits         generate a random password of digits
   -l, --length LENGTH  choose a password length (default: 32)
 ```
 
