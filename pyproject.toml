@@ -35,6 +35,9 @@ classifiers = [
 [project.urls]
 Source = "https://github.com/mentiferous/pwdgen.git"
 
+[project.scripts]
+pwdgen = "pwdgen.__main__:main"
+
 [tool.hatch.version]
 path = "src/pwdgen/__init__.py"
 
