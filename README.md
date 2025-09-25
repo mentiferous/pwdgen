@@ -30,7 +30,7 @@ pipx install pwdgen-py
 ## Usage
 
 ```sh
-python -m pwdgen
+pwdgen
 ```
 
 ## License
