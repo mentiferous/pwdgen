@@ -40,18 +40,18 @@ def main():
         "-b",
         "--base85",
         action="store_true",
-        help="generate a random base85 password",
+        help="generate a base85 password",
     )
     parser.add_argument(
         "--hex",
         action="store_true",
-        help="generate a random hex password",
+        help="generate a hex password",
     )
     parser.add_argument(
         "-d",
         "--digits",
         action="store_true",
-        help="generate a random password of digits",
+        help="generate a password of digits",
     )
     parser.add_argument(
         "-l",

@@ -1,4 +1,4 @@
-# pwdgen
+# `pwdgen`
 
 A secure password generator
 
@@ -10,9 +10,9 @@ A secure password generator
 options:
   -h, --help           show this help message and exit
   -V, --version        show program's version number and exit
-  -b, --base85         generate a random base85 password
-  --hex                generate a random hex password
-  -d, --digits         generate a random password of digits
+  -b, --base85         generate a base85 password
+  --hex                generate a hex password
+  -d, --digits         generate a password of digits
   -l, --length LENGTH  choose a password length (default: 32)
 ```
 
