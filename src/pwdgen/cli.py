@@ -22,6 +22,7 @@ import argparse
 
 from pwdgen import __version__
 from pwdgen.gen.pwd import gen_base85, gen_digits, gen_hex
+from pwdgen.helper import pwd_table
 
 
 def main():
@@ -66,13 +67,13 @@ def main():
     args.length = max(1, args.length)
 
     if args.base85:
-        print(gen_base85(args.length))
+        pwd_table("base85", gen_base85(args.length), args.length)
 
     elif args.hex:
-        print(gen_hex(args.length))
+        pwd_table("hex", gen_hex(args.length), args.length)
 
     elif args.digits:
-        print(gen_digits(args.length))
+        pwd_table("digits", gen_digits(args.length), args.length)
 
     else:
         parser.print_help()

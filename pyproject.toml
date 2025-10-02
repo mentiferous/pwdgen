@@ -4,6 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 dynamic = ["version"]
+dependencies = ["rich"]
 name = "pwdgen-py"
 requires-python = ">=3.6"
 authors = [{ name = "mentiferous" }]

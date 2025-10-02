@@ -16,6 +16,16 @@ options:
   -l, --length LENGTH  choose a password length (default: 32)
 ```
 
+## Preview
+
+```text
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃        base85        ┃ length ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ YSKus(qqw(0(LYEsr=Wi │   20   │
+└──────────────────────┴────────┘
+```
+
 ## Installation
 
 ### Prerequisites
