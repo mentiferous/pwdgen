@@ -21,7 +21,7 @@ options:
 ### Prerequisites
 
 - Python >= 3.6
-- [pipx](https://pipx.pypa.io/stable/installation/#on-linux)
+- [pipx](https://pipx.pypa.io/stable/installation)
 
 ```sh
 pipx install pwdgen-py
