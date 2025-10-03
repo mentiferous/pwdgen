@@ -16,8 +16,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""cli.py - Main module for pwdgen."""
-
 import argparse
 
 from pwdgen import __version__
@@ -44,6 +42,7 @@ def main():
         help="generate a base85 password",
     )
     parser.add_argument(
+        "-x",
         "--hex",
         action="store_true",
         help="generate a hex password",

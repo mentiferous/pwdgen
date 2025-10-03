@@ -16,22 +16,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""helper.py - Helper functions for pwdgen."""
-
 from rich.console import Console
 from rich.table import Table
 
 
 def pwd_table(name, password, length):
-    """Print a password table."""
-
-    console = Console()
-
     table = Table()
 
     table.add_column(name, justify="center")
     table.add_column("length", justify="center")
 
     table.add_row(password, str(length))
+
+    console = Console()
 
     console.print(table)

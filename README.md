@@ -3,17 +3,18 @@
 A secure password generator
 
 ```text
-usage: pwdgen [-h] [-V] [-b] [--hex] [-d] [-l LENGTH]
+usage: pwdgen [-h] [-V] [-b] [-x] [-d] [-l LENGTH]
 
 A secure password generator
 
 options:
-  -h, --help           show this help message and exit
-  -V, --version        show program's version number and exit
-  -b, --base85         generate a base85 password
-  --hex                generate a hex password
-  -d, --digits         generate a password of digits
-  -l, --length LENGTH  choose a password length (default: 32)
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+  -b, --base85          generate a base85 password
+  -x, --hex             generate a hex password
+  -d, --digits          generate a password of digits
+  -l LENGTH, --length LENGTH
+                        choose a password length (default: 32)
 ```
 
 ## Installation

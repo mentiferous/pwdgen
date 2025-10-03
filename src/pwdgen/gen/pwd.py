@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""pwd.py - Module for generating passwords."""
+"""pwd.py - Generate passwords."""
 
 from base64 import b85encode
 from secrets import choice, token_bytes, token_hex
