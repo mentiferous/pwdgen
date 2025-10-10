@@ -16,19 +16,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-from rich import box
 from rich.console import Console
-from rich.table import Table
 
-
-def pwd_table(name, password, length):
-    table = Table(box=box.SIMPLE)
-
-    table.add_column(name, justify="center")
-    table.add_column("length", justify="center")
-
-    table.add_row(password, str(length))
-
-    console = Console()
-
-    console.print(table)
+console = Console()

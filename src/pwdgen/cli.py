@@ -20,7 +20,7 @@ import argparse
 
 from pwdgen import __version__
 from pwdgen.gen.pwd import gen_base85, gen_digits, gen_hex
-from pwdgen.helper import pwd_table
+from pwdgen.utils.helper import pwd_table
 
 
 def main():
